@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: PlaywrightUItest-master
+        working-directory: QAAutomation/PlaywrightUItest-master
       - name: Run Playwright tests
         run: npm test
-        working-directory: PlaywrightUItest-master/tests
+        working-directory: QAAutomation/PlaywrightUItest-master/tests
